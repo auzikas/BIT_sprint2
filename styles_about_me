@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    color: #edf0f1;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 10%;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #0088a9
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+buttom:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 136, 169, 1);
+}
+
+.row {
+    content: "";
+    display: flex;
+    margin: 40px;
+    margin-top: 30px;
+    column-gap: 40px;
+}
+
+.column1 {
+    display: flex;
+    width: 35%;
+    border-right-style: solid;
+    border-right-color: rgba(0, 136, 169, 1);
+}
+
+.column2 {
+    display: flex;
+    width: 65%;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+}
+
+h2 {
+    color: #0088a9;
+    text-align: left;
+    font-size: 20px;
+    line-height: 2.2;
+}
+h4 {
+    line-height: 2.8;
+    text-align: left;
+    padding-top: 150px;
+}
+
+h1 {
+    text-align: left;
+    display: flex;
+    margin-left: 0;
+    height: 100px;
+    width: 100%;
+    color:#0088a9;
+    text-decoration: underline;
+    text-decoration-color:#0088a9;
+}
+
+b {
+    text-indent: 50px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.statement{
+    padding-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 136, 169, 1);
+}
+
+.skills{
+    padding-top: 30px;
+}
+
+
+footer { 
+    width: 100%;
+    height: fit-content;
+    width: 980px; 
+    margin: 20px;
+    padding: 30px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 136, 169, 1);
+}
+
+.footer_right { 
+    width: 47%; 
+    float: left; 
+    display: block; 
+    height: fit-content;
+}
+
+.footer_left { 
+    width: 47%; 
+    display: inline-block; 
+    height: fit-content;
+    padding-left: 100px;
+    
+}
+
+h6{
+    color: #0088a9;
+    text-align: left;
+    font-size: 20px;
+}
+
+.linkedin {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.github{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.skills_list{
+    column-count: 2;
+    font-size: 10.5px;
+}
+
+.skills, .personal{
+    font-size: 25px;
+}

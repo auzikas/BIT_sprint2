@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Cetrification.CSS">
+</head>
+<body>
+    <Header>
+        <nav>
+            <ul class="nav_links">
+                <li >
+                    <a class="button" href="../pages/about me.html"><button><img class="icons" src="../icons/about me.svg" alt="About me"> About me</button></a> 
+                </li>
+                <li>
+                     <a class="button" href="../pages/work experience.html"><button><img class="icons" src="../icons/work experience.svg" alt="Wrok experience">Work experience</button></a>
+                </li>
+                <li>
+                    <a class="button" href="../pages/certification.html"><button><img class="icons" src="../icons/awards.svg" alt="awards">Certification</button></a>
+                </li>
+            </ul>
+        </nav>
+    </Header>
+    <h1 class="Certificates">Certificates and Nominations</h1>
+    <div class="explain">
+        In my carrier I have received bunch of Sertificates and have won some nominations:
+    </div>
+    <ul class="list">
+        <li>twice nominates as nursery staf of the month</li>
+        <li>for ASG nomiated as best sales person in the company existance where I sold £980k in a single year</li>
+        <li>For ASG nominated as person signed largest contrat</li>
+        <li>For ASG nominates as employee taht bringed most New busienss for a company</li>
+        <li>For Veolia 5 times in arow been nominates as best SE</li>
+        <li>For veolia nominates twice as the employee taht signed most long term contracts</li>
+    </ul>
+</body>
+</html>

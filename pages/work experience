@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles_work_experience.css">
+</head>
+<body>
+    <Header>
+        <nav>
+            <ul class="nav_links">
+                <li >
+                    <a class="button" href="../pages/about me.html"><button><img class="icons" src="../icons/about me.svg" alt="About me"> About me</button></a> 
+                </li>
+                <li>
+                     <a class="button" href="../pages/work experience.html"><button><img class="icons" src="../icons/work experience.svg" alt="Wrok experience">Work experience</button></a>
+                </li>
+                <li>
+                    <a class="button" href="../pages/certification.html"><button><img class="icons" src="../icons/awards.svg" alt="awards">Certification</button></a>
+                </li>
+            </ul>
+        </nav>
+    </Header>
+    <h1 class="Work_experience"> Work experience</h1>
+    <div class="jobs">
+        Veolia Sales: executive, since 2019 - present
+    </div>
+    <p class="text"> Working at Veolia as SE main job was account management.
+        looking after my portfolio customers that annual contrat range was from 3k up to 6k increasign them servises, doind Risk Assesments, Service Calls.
+        Helping my customer with recycling services providen bes solution to them with best possible price.
+        hitting targets, KpI's and annual manager targets. Since 2021 October Veolia introduced awards whera I been top SE since then. In addition been nomiated twice as sales person with most long term contracts.
+    </p>
+    <div class="jobs">
+        Move Your Car: transport Cordinator, since 2018 - 2019
+    </div>
+    <p class="text">
+        Working at Move Your Car company as a Transport Manager I am involved in managing my
+        own team of 2 to 4 people every day and time to time looking after subcontractors up to 7
+        people. Day to day dealing with clients via phone, e-mail and looking for new ones.
+        Responsible of invoicing clients for completed jobs. Calculating weekly and monthly
+        company P&L. At first month working in this company have increased companys monthly
+        turnover by 5% and keep increasing each month.
+    </p>
+    <div class="jobs">
+        ASG Limited: Business development manager, since 2016 - 2019
+    </div>
+    <p class="text">
+        I held the position of Junior Business development manager. I was responsible for the B2B
+        sales within the cleaning and security sectors but mainly in after builders cleaning. In this role
+        I was searching and pitching for new clients, working with existing clients, doing cold
+        calling, creating tender proposals, doing budget forecasting, PQQ's, negotiating, setting up
+        contracts or agreements until signature. Initially I dedicated myself to work for 4 months with  
+        no income while on training I made my first 3 sales total value of £46K and was promoted
+        from Trainee to Junior Business Development Manager. 8 months later I achieved the largest
+        sale with a single contract valued £579K. At the end of my first year I made total sales of
+        £980K I have built up my portfolio and do get new opportunities to work with larger
+        construction companies such as Ballymore, Barratt Development, Gilbert-Ash, Neilcott,
+        Ringley Group, Weston Homes HG Construction and many more… I also carried out training
+        and inductions for new business development managers. Attended Buyers meeting and
+        supplier chain seminars.
+    </p>
+    <div class="jobs">
+        Jungle Monkeys Nursery: Nursery Assisatnt, since 2014 - 2016
+    </div>
+    <p class="nursery">
+        Working as a nursery assistant, I been involved in the following tasks:
+        <ul class="list">
+            <li> Cleaning Nursery Areas</li>
+            <li>Looking after Nursery landscape</li>
+            <li>Looking after stock, ordering materials and equipment for the Nursery.</li>
+            <li>Time to time helping the Nursery Chef</li>
+            <li>Assembling new tables, chairs, toys, fixing broken toys or any other items</li>
+            <li>Checking parents who come to pick up the children</li>
+            <li>Creating displays</li>
+            <li>Helping Nursery manager with different type of tasks.</li>
+            <li>Helping Nursery Nurses in the rooms to look after children during the lunch breaks.</li>
+        </ul>
+    </p>
+</body>
+</html>

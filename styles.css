@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+@media only screen and (max-width: 600px) {
+
+    body{
+        width: 75%;
+    }
+    
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -52,11 +60,21 @@ header{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     display: flex;
-    justify-content: center;
+    
 }
 
-buttom:hover{
+.buttom:hover{
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+span{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    display: flex; 
 }
 
 .icons {
@@ -135,7 +153,6 @@ b {
 footer { 
     width: 100%;
     height: fit-content;
-    width: 980px; 
     margin: 20px;
     padding: 30px;
     border-top-style: solid;
@@ -173,6 +190,7 @@ h6{
     width: 50px;
     height: 50px;
     display: inline-block;
+    margin-left: 10px;
 }
 
 .skills_list{

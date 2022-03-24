@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+@media only screen and (max-width: 600px) {
+
+    body{
+        width: 75%;
+    }
+    
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -23,6 +31,7 @@ li, a, button{
 header{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 30px 10%;
 }
 
@@ -43,7 +52,7 @@ header{
     color: #0088a9
 }
 
-button{
+.button{
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -51,11 +60,21 @@ button{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     display: flex;
-    justify-content: center;
+    
 }
 
-buttom:hover{
+.buttom:hover{
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+span{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    display: flex; 
 }
 
 .icons {
@@ -134,7 +153,6 @@ b {
 footer { 
     width: 100%;
     height: fit-content;
-    width: 980px; 
     margin: 20px;
     padding: 30px;
     border-top-style: solid;
@@ -172,6 +190,7 @@ h6{
     width: 50px;
     height: 50px;
     display: inline-block;
+    margin-left: 10px;
 }
 
 .skills_list{
@@ -179,6 +198,6 @@ h6{
     font-size: 10.5px;
 }
 
-.skills, .personal{
+.skills, .personal {
     font-size: 25px;
 }
